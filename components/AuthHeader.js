@@ -8,7 +8,7 @@ const AuthHeader = () => {
   return (
     <View style={loginScreenStyles.header}>
       <View style={loginScreenStyles.logoContainer}>
-        <Ionicons name="shield-checkmark" size={60} color={colors.primary} />
+        <Ionicons name="finger-print" size={60} color={colors.primary} /> 
       </View>
       <Text style={loginScreenStyles.title}>Welcome Back</Text>
       <Text style={loginScreenStyles.subtitle}>Sign in to your account</Text>
